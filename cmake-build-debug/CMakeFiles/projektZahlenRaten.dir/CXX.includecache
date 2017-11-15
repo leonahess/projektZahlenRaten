@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leonhess/Library/Mobile Documents/com~apple~CloudDocs/GitHub/projektZahlenRaten/main.cpp
+iostream
+-
+
