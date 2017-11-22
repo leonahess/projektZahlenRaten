@@ -1,4 +1,5 @@
- # Projektaufgabe
+# Zahlen raten
+## Projektaufgabe
  Erstelle eine C++ Konsolenanwendung für ein Zahlenspiel, welches von zwei Partner gespielt werden kann.
  Dabei soll von Partner A eine ganzzahlige Ziffer zwischen 1 und 100 eingeben und durch Partner B erraten werden.
  
@@ -8,13 +9,13 @@
  
  Sämtliche Versuche von Partner B sollen über eine Schleife mitgezählt werden.  
  
- # Fehlerüberprüfung
+## Fehlerüberprüfung
  Um den Ratespaß tatsächlich zu garantieren, muss die Eingabe zu Beginn von Partner A überprüft werden. Die Eingabe muss sich wirklich in der Spanne von 1 und 100 befinden. Ist die Eingabe ungültig oder nicht unter dieser Bedingung, soll die Eingabe immer wieder wiederholt werden, bis die Ziffer tatsächlich korrekt ist.
  
- # Demonstration
+## Demonstration
  Das zu erfüllende Endergebnis steht als kompilierte .exe-Anwendung ebenfalls auf unserer Kurswebseite unter Materialien (Datum der aktuellen Kurseinheit) zum Ausprobieren zur Verfügung.
  
- #Konsole leeren/Press any key to continue
+## Konsole leeren/Press any key to continue
  Bevor Partner B die Zahl erraten kann, muss die Konsole für ihn zunächst geleert werden, damit er die Eingabe von Partner A nicht sieht. Ebenfalls muss der Start per Tastendruck erst bestätigt werden. Hierbei gibt es Unterschiede zwischen den auszuführenden Betriebssystemen.
  
  Um eine möglichst einheitliche Lösung zu garantieren, kann der der nachfolgende Code vor dem Hauptprogramm main() definiert werden.
